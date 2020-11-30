@@ -409,7 +409,7 @@ class APlayer {
         instances.splice(instances.indexOf(this), 1);
         this.pause();
         this.container.innerHTML = '';
-        this.audio.src = '';
+        // this.audio.src = '';
         this.timer.destroy();
         this.events.trigger('destroy');
     }
